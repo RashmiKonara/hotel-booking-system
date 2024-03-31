@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <main>
+        <section id="booking-form">
+            <h2>Book a Room</h2>
+            <form id="booking-form">
+                <label for="check-in-date">Check-in Date:</label>
+                <input type="date" id="check-in-date" required>
+                <label for="check-out-date">Check-out Date:</label>
+                <input type="date" id="check-out-date" required>
+                <!-- Other input fields for number of guests, room type, etc. -->
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="available-rooms">
+            <h2>Available Rooms</h2>
+            <div id="rooms-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hotel Booking</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
